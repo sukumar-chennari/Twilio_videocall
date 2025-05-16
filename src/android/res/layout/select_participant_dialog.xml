@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/black"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Participant"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"/>
+
+    <Spinner
+        android:id="@+id/select_spnr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/select_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_spnr"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_recycler"
+        android:gravity="center"
+        android:text="Participant is not available for the call."
+        android:textColor="@android:color/white"
+        android:visibility="gone" />
+
+</RelativeLayout>

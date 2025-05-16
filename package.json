@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-videocall",
+  "version": "0.0.1",
+  "description": "To make video call among 3-participants",
+  "cordova": {
+    "id": "cordova-plugin-videocall",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "medleymed",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chakri3130/3-way_videocall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chakri3130/3-way_videocall/issues"
+  },
+  "homepage": "https://github.com/chakri3130/3-way_videocall#readme"
+}
